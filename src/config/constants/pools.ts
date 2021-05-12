@@ -1,5 +1,3 @@
-import BigNumber from 'bignumber.js'
-import { getDecimalAmount } from '../../utils/formatBalance'
 import tokens from './tokens'
 import { PoolConfig, PoolCategory } from './types'
 
@@ -1078,7 +1076,6 @@ const pools: PoolConfig[] = [
     sousId: 62,
     stakingToken: tokens.tpt,
     earningToken: tokens.cake,
-    stakingLimit: getDecimalAmount(new BigNumber(25000)),
     contractAddress: {
       97: '',
       56: '0x0c3D6892aa3b23811Af3bd1bbeA8b0740E8e4528',
@@ -1191,7 +1188,6 @@ const pools: PoolConfig[] = [
     sousId: 54,
     stakingToken: tokens.sushi,
     earningToken: tokens.cake,
-    stakingLimit: getDecimalAmount(new BigNumber(50)),
     contractAddress: {
       97: '',
       56: '0xb69b6e390cba1F68442A886bC89E955048DAe7E3',
@@ -1276,7 +1272,6 @@ const pools: PoolConfig[] = [
     sousId: 48,
     stakingToken: tokens.comp,
     earningToken: tokens.cake,
-    stakingLimit: getDecimalAmount(new BigNumber(1)),
     contractAddress: {
       97: '',
       56: '0xE0565fBb109A3f3f8097D8A9D931277bfd795072',
@@ -1291,7 +1286,6 @@ const pools: PoolConfig[] = [
     sousId: 47,
     stakingToken: tokens.comp,
     earningToken: tokens.cake,
-    stakingLimit: getDecimalAmount(new BigNumber(1)),
     contractAddress: {
       97: '',
       56: '0xc3693e3cbc3514d5d07EA5b27A721F184F617900',
@@ -1586,7 +1580,6 @@ const pools: PoolConfig[] = [
     sousId: 26,
     stakingToken: tokens.twt,
     earningToken: tokens.cake,
-    stakingLimit: getDecimalAmount(new BigNumber(1000)),
     contractAddress: {
       97: '',
       56: '0x0554a5D083Abf2f056ae3F6029e1714B9A655174',
@@ -1643,7 +1636,6 @@ const pools: PoolConfig[] = [
     sousId: 20,
     stakingToken: tokens.bnb,
     earningToken: tokens.cake,
-    stakingLimit: getDecimalAmount(new BigNumber(10)),
     contractAddress: {
       97: '',
       56: '0x555Ea72d7347E82C614C16f005fA91cAf06DCB5a',
